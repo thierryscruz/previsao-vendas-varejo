@@ -17,5 +17,6 @@ SELECT
     CAST(JSON_VALUE(DetalhesJson, '$.VendaID') AS INT) AS VendaID,
     CAST(JSON_VALUE(DetalhesJson, '$.QuantidadeVendida') AS INT) AS QtdTentativaVenda
     
-FROM Auditoria_Divergencias;
+FROM Auditoria_Divergencias
+WHERE CONVERT(DATE, DataAnalise) = CONVERT(DATE, GETDATE());
 GO
