@@ -12,7 +12,7 @@
 ## 💼 O Cenário de Negócio (Business Case)
 
 <div align="center">
-  <img src="assets/dashboard.png" alt="Dashboard Preview" width="30%">
+  <img src="assets/dashboard.png" alt="Dashboard Preview" width="50%">
 </div>
 
 Em grandes varejistas com sistemas legados, falhas de concorrência (*race conditions*) podem gerar **"Vendas Fantasmas"** — pedidos confirmados sem a baixa correspondente no estoque.
