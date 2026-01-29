@@ -39,23 +39,16 @@ O "vigilante" do sistema.
 A "visão do gestor".
 *   Os logs técnicos são transformados em dashboards executivos através de Views SQL otimizadas, permitindo acompanhar a saúde do sistema e a frequência de erros em tempo real.
 
----
-
-## 🔧 Competências Técnicas Demonstradas
-
-| Área | Conceitos Aplicados |
-| :--- | :--- |
-| **Engenharia de Dados** | Padrão ELT (Extract-Load-Transform), Tratamento de Exceção (TRY...CATCH), Transações (COMMIT/ROLLBACK). |
-| **SQL Moderno** | Manipulação e Parsing de JSON nativo no banco (`FOR JSON PATH`, `JSON_VALUE`). |
-| **Automação** | Scripting Python com conexão ODBC segura, Design Patterns de orquestração. |
-| **Arquitetura** | Desacoplamento de responsabilidades (Banco valida, Python avisa, BI mostra). |
 
 ---
 
 ## 🚀 Como Executar
 1 - Clone o repositório.
+
 2 - Restaure o script setup_database.sql no seu SQL Server.
+
 3 - Configure os dados de conexão no arquivo auditor_vendas.py.
+
 4 - Execute python auditor_vendas.py.
 
 ---
