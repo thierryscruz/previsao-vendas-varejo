@@ -11,7 +11,7 @@
 
 ## 💼 O Cenário de Negócio (Business Case)
 
-<div align="left">
+<div align="center">
   <img src="assets/dashboard.png" alt="Dashboard Preview" width="50%">
 </div>
 
